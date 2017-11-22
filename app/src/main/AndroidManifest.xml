@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.e_medapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="@android:icon">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".adminPanel" />
+        <activity android:name=".doctorRegistration" />
+        <activity android:name=".patientRegistration" />
+        <activity android:name=".PatientLoginActivity" />
+        <activity android:name=".patientPanel" />
+        <activity android:name=".DoctorLoginActivity" />
+        <activity android:name=".doctorPanel" />
+        <activity android:name=".AdminLoginActivity" />
+        <activity android:name=".DoctorDetails" />
+        <activity android:name=".PatientDetails" />
+        <activity android:name=".patientDoctorList" />
+        <activity android:name=".adminPatientViewActivity" />
+        <activity android:name=".adminPatientDetailsActivity" />
+        <activity android:name=".TimeSelect" />
+        <activity android:name=".adminViewAppointment" />
+        <activity android:name=".adminDoctorViewActivity" />
+        <activity android:name=".patientMyAppointment" />
+        <activity android:name=".adminDoctorDetailsActivity" />
+        <activity android:name=".patientDoctorViewActivity" />
+        <activity android:name=".patientViewAppointment" />
+        <activity android:name=".FeedbackPatientActivity" />
+        <activity android:name=".adminViewFeedback" />
+        <activity android:name=".DoctorViewPatientAppointmentActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">E-med App</string>
+    <string name="title_activity_admin_panel">adminPanel</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="my_details">My Details</string>
+    <string name="logout">Logout</string>
+    <string name="my_appointment">My Appointment</string>
+    <string name="tvPatientlogout">Logout</string>
+    <string name="patient_my_appointment">My Appointment</string>
+    <string name="patient_my_details">My Details</string>
+    <string name="patient_view_appointment">View Appointment</string>
+    <string name="DoctorID">ID</string>
+    <string name="DoctorPassword">Password</string>
+    <string name="doctor_sign_in">Sign In</string>
+    <string name="patient_sign_in">Sign In</string>
+    <string name="Patient_Password">Password</string>
+    <string name="patient_username">Username</string>
+    <string name="Patient_Id">ID</string>
+    <string name="patient_email">Patient Email :</string>
+    <string name="patient_id">Patient ID :</string>
+    <string name="patient_name">Patient Name :</string>
+    <string name="patient_phone">Patient Phone :</string>
+    <string name="patient_type">Patient Type :</string>
+    <string name="admin_patient_name">Patient Name</string>
+
+    <string-array name="doctorType_array">
+        <item>Bone</item>
+        <item>Cardiologist</item>
+        <item>Dentist</item>
+        <item>Neurologist</item>
+        <item>Orthopedic</item>
+        <item>Medicine</item>
+    </string-array>
+
+    <string-array name="patientType_array">
+        <item>Postgraduate</item>
+        <item>Undergraduate</item>
+        <item>Staff</item>
+    </string-array>
+</resources>

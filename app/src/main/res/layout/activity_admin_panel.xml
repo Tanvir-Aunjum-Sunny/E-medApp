@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_admin_panel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.e_medapp.adminPanel">
+
+    <TextView
+        android:text="Add new Dr."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="82dp"
+        android:id="@+id/tvAddNewDr"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/tvViewDoctor"
+        android:layout_alignStart="@+id/tvViewDoctor" />
+
+    <TextView
+        android:text="Add new patient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAddNewPatient"
+        android:layout_below="@+id/tvAddNewDr"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="View doctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvViewDoctor"
+        android:layout_below="@+id/tvAdminViewPatients"
+        android:layout_alignRight="@+id/tvAddNewPatient"
+        android:layout_alignEnd="@+id/tvAddNewPatient" />
+
+    <TextView
+        android:text="View appointments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvViewAppointments"
+        android:layout_below="@+id/tvViewDoctor"
+        android:layout_alignLeft="@+id/tvAddNewPatient"
+        android:layout_alignStart="@+id/tvAddNewPatient" />
+
+    <TextView
+        android:text="View Patients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAdminViewPatients"
+        android:layout_below="@+id/tvAddNewPatient"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/adminLogoutButton"
+        android:textAllCaps="false"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/tvAdminViewPatients"
+        android:layout_alignStart="@+id/tvAdminViewPatients" />
+
+    <TextView
+        android:text="View Feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvViewFeedback"
+        android:layout_below="@+id/tvViewAppointments"
+        android:layout_alignRight="@+id/tvViewDoctor"
+        android:layout_alignEnd="@+id/tvViewDoctor" />
+</RelativeLayout>
